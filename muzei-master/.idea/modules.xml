@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-client-common/android-client-common.iml" filepath="$PROJECT_DIR$/android-client-common/android-client-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aoplibrary/aoplibrary.iml" filepath="$PROJECT_DIR$/aoplibrary/aoplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-source-500px/example-source-500px.iml" filepath="$PROJECT_DIR$/example-source-500px/example-source-500px.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-watchface/example-watchface.iml" filepath="$PROJECT_DIR$/example-watchface/example-watchface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muzei-master.iml" filepath="$PROJECT_DIR$/muzei-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-featured-art/source-featured-art.iml" filepath="$PROJECT_DIR$/source-featured-art/source-featured-art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-gallery/source-gallery.iml" filepath="$PROJECT_DIR$/source-gallery/source-gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wearable/wearable.iml" filepath="$PROJECT_DIR$/wearable/wearable.iml" />
+    </modules>
+  </component>
+</project>
