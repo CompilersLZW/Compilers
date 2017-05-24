@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">印刻时光</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="upload">upload</string>
+    <string name="back">back</string>
+    <string name="pic">pic</string>
+    <string name="btn_ok">保存</string>
+    <string name="default_pic">默认图片</string>
+    <string name="read_pic">阅读界面图片</string>
+    <string name="timeline">时间轴</string>
+
+</resources>

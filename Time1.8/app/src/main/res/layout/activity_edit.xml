@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timg5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:gravity="top">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/back"
+                android:layout_marginLeft="20dp"
+                android:background="@android:drawable/ic_menu_revert"
+                android:cropToPadding="false"
+                android:contentDescription="@string/back"
+                android:layout_gravity="top|left" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="-20dp"
+                android:inputType="date"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:id="@+id/preview"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/default_pic"
+                android:contentDescription="@string/default_pic"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/pic"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:drawable/ic_menu_gallery"
+                android:layout_gravity="right"
+                android:contentDescription="@string/pic"
+                android:adjustViewBounds="false"
+                android:layout_marginRight="5dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_weight="0.95"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/et_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25sp"
+                    android:inputType="text"
+                    android:layout_gravity="top|center_horizontal"
+                    android:background="#4affffff"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_upload"
+                android:textSize="20sp"
+                android:singleLine="false"
+                android:allowUndo="false"
+                android:textStyle="normal|italic"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_weight="0.31"
+                android:layout_marginBottom="70dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
