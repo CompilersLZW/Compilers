@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
  */
 
 public class FuncPerformance implements Runnable {
-    private static final String packageName = "com.hitomi.fungamerefreshdemo";
+    private static final String packageName = "shaishav.com.androidloginbuttonexample";
     private String FuncName;
     private String memoryInfo;
     private double cpuInfo;

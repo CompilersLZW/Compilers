@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FunGameRefreshDemo</string>
+    <string name="activity_list_view">ListView</string>
+    <string name="activity_grid_view">GridView</string>
+    <string name="activity_recycle_view">RecycleView</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_recycle_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hitomi.fungamerefreshdemo.RecycleViewActivity">
+
+    <com.hitomi.refresh.view.FunGameRefreshView
+        android:id="@+id/refresh_fun_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:game_type="hit_block">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.hitomi.refresh.view.FunGameRefreshView>
+
+</RelativeLayout>

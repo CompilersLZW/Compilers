@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hitomi.fungamerefreshdemo.ListViewActivity">
+
+    <!--
+        app:mask_top_text="111"
+        app:mask_bottom_text="222"
+        app:text_loading="333"
+        app:text_loading_finished="444"
+        app:text_game_over="666"
+    -->
+    <com.hitomi.refresh.view.FunGameRefreshView
+        android:id="@+id/refresh_fun_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:game_type="hit_block">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+    </com.hitomi.refresh.view.FunGameRefreshView>
+
+</RelativeLayout>
+

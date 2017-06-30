@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FunGameRefresh-master.iml" filepath="$PROJECT_DIR$/FunGameRefresh-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aoplibrary/aoplibrary.iml" filepath="$PROJECT_DIR$/aoplibrary/aoplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fungamerefresh/fungamerefresh.iml" filepath="$PROJECT_DIR$/fungamerefresh/fungamerefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fungamerefreshdemo/fungamerefreshdemo.iml" filepath="$PROJECT_DIR$/fungamerefreshdemo/fungamerefreshdemo.iml" />
+    </modules>
+  </component>
+</project>

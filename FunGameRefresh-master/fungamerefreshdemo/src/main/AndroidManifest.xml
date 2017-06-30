@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hitomi.fungamerefreshdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GridViewActivity"
+            android:label="@string/activity_grid_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/activity_list_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecycleViewActivity"
+            android:label="@string/activity_recycle_view"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

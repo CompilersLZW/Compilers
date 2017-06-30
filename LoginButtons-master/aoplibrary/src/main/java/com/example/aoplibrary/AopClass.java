@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 
 @Aspect
 public class AopClass {
-    private static final String ACTIVITY_CREATE_EXECUTION = "execution(* com.hitomi.fungamerefreshdemo.*.*(..))";
+    private static final String ACTIVITY_CREATE_EXECUTION = "execution(* shaishav.com.androidloginbuttonexample.*.*(..))";
     private static final String LOG_TAG="AOP";
     @Pointcut(ACTIVITY_CREATE_EXECUTION)
     public void activityCreateExecution(){
